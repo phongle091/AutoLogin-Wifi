@@ -40,7 +40,12 @@ hostname = "google.com" #example
 response = os.system("ping -c 1 " + hostname)
 
 while True:
-    if (response == 0):
-        #call for bot
+    if (response != 0):
+        t = time.localtime()
+        current_time = time.strftime("%H:%M:%S", t)
+    #call for bot
+        print("Loging in at: " + current_time)
         startBot(username, password, url)
-    time.sleep(10800) #delay 3 hours
+        time.sleep(10800) #delay 1 hours
+    else:
+    	time.sleep(3600)
