@@ -1,6 +1,6 @@
 # AutoLogin-Wifi
 
-Using Selenium (pip install Selenium), chromedriver required
+Using Selenium (pip install Selenium), chromedriver required.
 
 Auto login wifi script using Python
 
