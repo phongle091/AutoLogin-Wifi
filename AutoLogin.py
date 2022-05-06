@@ -29,8 +29,8 @@ def startBot(username, password, url):
  
 # Driver Code
 # Enter below your login credentials
-username = "20175956"
-password = "Asdzxc1231"
+username = "username"
+password = "password"
  
 # URL of the login page of site
 # which you want to automate login.
